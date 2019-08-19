@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="PRN"/>
+
+            <EditText
+                android:id="@+id/edit1"
+                android:hint="Enter Roll No"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Branch"/>
+
+            <EditText
+                android:id="@+id/edit2"
+                android:hint="Branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:inputType="text"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Phone Number"/>
+
+            <EditText
+                android:id="@+id/edit3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Correct Phone Number"
+                android:inputType="number" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/text4"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Present Class"/>
+
+            <EditText
+                android:id="@+id/precls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Class"
+                android:onClick="select"
+                android:layout_marginLeft="20dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/text4"
+                android:text="Pointer"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/edit4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:hint="CPI"/>
+        </TableRow>
+        <Button
+            android:id="@+id/button1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="110dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/path"/>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
+
